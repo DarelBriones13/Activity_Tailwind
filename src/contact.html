@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+  <div class="w-full h-screen bg-black">
+    <nav class="">
+        <ul class="w-full  flex gap-6 p-6 border-b-2 text-white">
+            <li class="text-xl mx-2"><a href="index.html">Home</a></li>
+            <li class="text-xl mx-2"><a href="category.html">Category</a></li>
+            <li class="text-xl mx-2"><a href="contact.html">Contact</a></li>
+            <li class="text-xl mx-2"><a href="product.html">Products</a></li>
+        </ul>
+    </nav>
+    <main class="w-7/12 h-3/4 rounded-xl bg-white my-20 mx-96 p-6">
+        <h1 class="text-3xl font-bold">Get in touch</h1>
+        <format class="text-xl ">
+            <div class="mt-4 flex gap-10 ">
+                <div>
+                    <label class="font-medium" for="name">Your Name(required)</label><br>
+                    <input class="border-2 border-black w-[450px] h-[40px] py-5 px-2  mt-2" type="text" name="name" placeholder="Enter your name" required>
+                <br>
+                </div>
+                <div>
+                    <label class="font-medium" for="email">Your Email(required)</label><br>
+                    <input class="border-2 border-black w-[450px] h-[40px] py-5 px-2 mt-2 mb-2"  type="text" name="email" placeholder="Enter your email" required>
+                    <br>
+                </div>
+                
+            </div>
+                <label class="font-medium " for="subject">Subject</label><br>
+                <input class="border-2 border-black w-[940px] h-[40px] py-5 px-2 mt-2 mb-2 " type="text" name="subject" placeholder="Enter your subject" required>
+                <br>
+                <label class="font-medium" for="message">Message</label><br>
+                <textarea class="border-2 border-black w-[940px] h-[300px] py-5 px-2 mt-2 mb-2" name="message" id="message" ></textarea>
+                <br>
+                <button class="font-medium bg-black text-white text-center border-2 border-black py-2 px-4 rounded-md ml-96 mt-5">Send Message</button>
+            
+        </format>
+    </main>
+  </div>
+</body>
+</html>
